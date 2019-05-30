@@ -6,7 +6,7 @@ cargo build --release
    ```
 
 2. Use
-```
+```rust
 extern crate letov;
 
 if let Ok(letov_says) = letov::say() {
